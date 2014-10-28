@@ -16,7 +16,7 @@ Image Recognition requests to the API of CraftAR. The display of the result of t
 of each is up to you.
 
 This document describes mainly the Examples of different uses of the Service and the Image Recognition SDK.
-General use of the SDK can be found in the [Documentation section of Catchoom website](http://catchoom.com/documentation/sdk/image-recognition/android-image-recognition-sdk/). Complete SDK documentation of the classes can be found within the SDK distribution.
+General use of the SDK can be found in the Documentation webpage for the [Android Image Recognition SDK](http://catchoom.com/documentation/sdk/image-recognition/android-image-recognition-sdk/). Complete SDK documentation of the classes can be found within the distribution of the SDK itself.
 
 ### How to use the examples
 
