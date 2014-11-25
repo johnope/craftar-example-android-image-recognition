@@ -23,7 +23,7 @@
     <string name="howto_refs_1">- Reference images can be found in the \'Reference Images\' folder in the root of the project.</string>
     <string name="howto_refs_2">- Print the reference images for a better experience.</string>
     <string name="howto_doc_title">SDK documentation</string>
-    <string name="howto_doc_1">Find out more about the Catchoom SDK in the SDK\'s \'Documentation\' folder.</string>
+    <string name="howto_doc_1">Find out more about the CraftAR SDK in the SDK\'s \'Documentation\' folder.</string>
     
     <!-- COMMON -->
     <string name="howto_common_ref_image">Reference image:</string>
