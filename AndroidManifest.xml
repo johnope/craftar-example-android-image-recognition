@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.catchoom.catchoomirexamples"
+    package="com.craftar.craftarexamplesir"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="18" />
-
+ 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.CAMERA_EXTENDED" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.catchoom.catchoomirexamples.SplashScreenActivity"
+            android:name="com.craftar.craftarexamplesir.SplashScreenActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,19 +29,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.catchoom.catchoomirexamples.RecognitionFinderActivity">
+            android:name="com.craftar.craftarexamplesir.RecognitionFinderActivity">
             </activity>
         <activity
-            android:name="com.catchoom.catchoomirexamples.RecognitionOnlyActivity">
+            android:name="com.craftar.craftarexamplesir.RecognitionOnlyActivity">
             </activity>
         <activity
-            android:name="com.catchoom.catchoomirexamples.LaunchersActivity">
+            android:name="com.craftar.craftarexamplesir.LaunchersActivity">
             </activity>
         <activity
-            android:name="com.catchoom.catchoomirexamples.HowToActivity">
+            android:name="com.craftar.craftarexamplesir.HowToActivity">
             </activity>
         <activity
-            android:name="com.catchoom.catchoomirexamples.WebActivity">
+            android:name="com.craftar.craftarexamplesir.WebActivity">
             </activity>
     </application>
 

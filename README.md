@@ -28,7 +28,7 @@ To run the examples follow these steps:
  2.  Integrate the CraftAR Image Recognition SDK into the project (see [below](#step-by-step-guide)).
  3.  Run the app on an Android device.
 
-### Add CatchoomSDK to the Example project
+### Add CraftAR SDK to the Example project
 
 #### Requirements
 

@@ -1,4 +1,4 @@
-// com.catchoom.catchoomexamples is free software. You may use it under the MIT license, which is copied
+// com.craftar.craftatexamplesir is free software. You may use it under the MIT license, which is copied
 // below and available at http://opensource.org/licenses/MIT
 //
 // Copyright (c) 2014 Catchoom Technologies S.L.
@@ -20,9 +20,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-package com.catchoom.catchoomirexamples;
-
-import com.catchoom.catchoomirexamples.R;
+package com.craftar.craftarexamplesir;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -32,7 +30,6 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 

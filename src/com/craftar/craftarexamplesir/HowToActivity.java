@@ -1,4 +1,4 @@
-// com.catchoom.catchoomexamples is free software. You may use it under the MIT license, which is copied
+// com.craftar.craftarexamplesir is free software. You may use it under the MIT license, which is copied
 // below and available at http://opensource.org/licenses/MIT
 //
 // Copyright (c) 2014 Catchoom Technologies S.L.
@@ -20,47 +20,27 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-package com.catchoom.catchoomirexamples;
+package com.craftar.craftarexamplesir;
 
-import com.catchoom.catchoomirexamples.R;
-
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
-public class WebActivity extends Activity implements OnClickListener {
-	private WebView webView1;
-
-	public static final String WEB_ACTIVITY_URL="url";
+public class HowToActivity extends Activity {
 	
-	@SuppressLint("NewApi")
+	public static final String HOWTO_LAYOUT_EXTRA = "howto_layout";
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_web);
-		webView1 = (WebView) findViewById(R.id.activity_web);
-		webView1.getSettings().setSupportZoom(true);
-		webView1.getSettings().setBuiltInZoomControls(true);
-		if (Build.VERSION.SDK_INT > 11)
-			webView1.getSettings().setDisplayZoomControls(false);
-
-		webView1.setInitialScale(100);
-		webView1.setWebViewClient(new WebViewClient() {
-
-		});
-
-		Bundle bundle = getIntent().getExtras();
-		webView1.loadUrl(bundle.getString(WEB_ACTIVITY_URL));
-	}
-
-	@Override
-	public void onClick(View v) {
-
+		int layoutRes = getIntent().getExtras().getInt(HOWTO_LAYOUT_EXTRA);
+		setContentView(layoutRes);
+		
+		TextView linksView = (TextView)findViewById(R.id.text_with_links_1);
+		if (linksView != null) {
+			linksView.setMovementMethod(LinkMovementMethod.getInstance());
+		}
 	}
 
 }
