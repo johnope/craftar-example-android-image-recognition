@@ -43,6 +43,9 @@
         <activity
             android:name="com.craftar.craftarexamplesir.WebActivity">
             </activity>
+        <activity
+            android:name="com.craftar.fragmentexample.ScreenSlideActivity">
+            </activity>
     </application>
 
 </manifest>
