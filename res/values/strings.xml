@@ -7,6 +7,8 @@
     <string name="launchers_howto">How to use the examples</string>
     <string name="launchers_reco_finder">Recognition Finder Mode</string>
     <string name="launchers_reco_only">Recognition Single Mode</string>
+    <string name="launchers_fragment_finder">Fragment slider with finder mode</string>
+    
     <string name="launchers_signup">Sign Up</string>
     <string name="launchers_about">About</string>
     <string name="launchers_no_account">No account yet?</string>
@@ -35,7 +37,7 @@
     <string name="howto_common_about_scene_1">1. Upload the reference image through the 
         <a href="http://catchoom.com/documentation/api/management?utm_source=CraftARExamplesApp&amp;utm_medium=Android&amp;utm_campaign=HelpWithAPI">API</a> 
         or the 
-        <a href="http://crs.catchoom.com?utm_source=CraftARExamplesApp&amp;utm_medium=Android&amp;utm_campaign=HelpWithAPI">web panel</a>
+        <a href="http://my.craftar.net?utm_source=CraftARExamplesApp&amp;utm_medium=Android&amp;utm_campaign=HelpWithAPI">web panel</a>
     </string>
     <string name="howto_common_about_scene_4">4. Publish</string>
     
