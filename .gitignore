@@ -6,6 +6,7 @@
 *.ear
 
 bin
-libs/
+libs/*
+!android-support-v13.jar
 local.properties
 gen
