@@ -36,6 +36,6 @@ To build the project or use the library, you will need the latest version of the
 SDK and a device with Android 4.0 or newer.
 
 #### Step-by-step guide
-1.  Download the [CraftAR Image Recognition SDK for Android](http://catchoom.com/product/craftar/augmented-reality-and-image-recognition-sdk/#download-mobile-sdk).
+1.  Download the [CraftAR Android Image Recognition SDK](http://catchoom.com/product/craftar/augmented-reality-and-image-recognition-sdk/#download-mobile-sdk).
 2.  Unzip the package
 3.  Copy the libs folder into the root of the project.
