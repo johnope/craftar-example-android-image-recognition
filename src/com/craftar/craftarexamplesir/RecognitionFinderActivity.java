@@ -1,8 +1,7 @@
 // com.craftar.craftarexamplesir is free software. You may use it under the MIT license, which is copied
 // below and available at http://opensource.org/licenses/MIT
 //
-// Copyright (c) 2014 Catchoom Technologies S.L.
-//
+// Copyright (c) 2014 Creativeiqs
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
 // the Software without restriction, including without limitation the rights to use,
@@ -20,7 +19,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-package com.craftar.craftarexamplesir;
+package com.creative.creativeir;
 
 import java.util.ArrayList;
 
